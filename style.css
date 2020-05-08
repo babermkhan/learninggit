@@ -1,0 +1,130 @@
+.fontSize{
+    font-size: 11px;
+    border-radius: 0px;
+}
+.txtFontSize{
+    font-size: 14px;
+    color: white;
+}
+#header{
+    background-color: #317dc3;
+    width: 100%;
+}
+.bg-primary{
+    background-color: #317dc3 !important;
+}
+.socialMedia img{
+   
+    height: 13px;
+}
+.socialMedia, .socialMediaYoutube{
+    display: inline-block;
+}
+.socialMediaYoutube img{
+    height: 18px;      
+}
+.socialMedia a{
+   
+    margin-right: 20px;
+}
+.socialMediaYoutube a{
+    margin-right: 20px;   
+}
+.mediaLinks{
+    padding-top: 5px;
+}
+.logo{
+    width: 18%;
+    height: 50px;
+    margin-top: 0;
+}
+.saylaniHeader{
+    background-color: #f8f9fa;
+}
+.nav-item a:hover{
+    color: white !important;
+    background-color: #317dc3;
+    border-radius: 20px !important;
+   }
+.active{
+    background-color: #317dc3;
+    border-radius: 20px !important;
+    padding: 1px 10px 1px 10px;
+}
+.active a {
+    color: white !important;
+}
+
+.carousel-item {
+    height: 100%;
+    min-height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center !important;
+    background: no-repeat center center scroll !important;
+  
+    }
+#slidingNews{
+    margin-top: 10px;
+}
+#intro, .whatWe{
+    font-family: Times New Roman;
+    color: dodgerblue;
+    font-weight: bold;
+    margin: 60px auto 10px auto;
+}
+#intro span, .whatWe span{
+    color: forestgreen;
+}
+.smallLogo, .imgClass{
+    text-align: center;
+}
+.smallLogo::after {
+    content: "";
+    height: 2px;
+    left: 10px;
+    position: absolute;
+    top: 30px;
+    width: 30px;
+  }
+  .smallLogo::before {
+    content: "";
+    height: 2px;
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    width: 36px;
+  }
+  .textStuff{
+    text-align: justify;
+  }
+  .foodDiv{
+      text-align: center;
+  }
+  .foodSection{
+    background-color: blue;
+  }
+  .foodDiv img{
+    height: 40px;
+    margin-top: 90px;
+  }
+  .foodDiv h1{
+    font-family: serif;
+    font-size: 45pt;
+    color: white;
+  }
+  .foodDiv h4{
+    color: white;
+    font-size: 12pt;
+    font-family: serif;
+    font-weight: 600;
+  }
+  .foodDiv h4 span{
+    color: springgreen;
+  }
+  #navbarSupportedContent{
+    margin-left: 296px;
+  }
+  #centerHeading{
+      margin: auto;
+  }
